@@ -1,4 +1,4 @@
-<img src="yeet21.png" height="200px"/>
+<img src="yeet21.png" height="100px"/>
 
 # uagpmc.com
 
