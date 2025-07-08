@@ -2,7 +2,7 @@
 
 # uagpmc.com
 
-> Unnamed Arma Group's public-facing website
+> Unnamed Arma Group's official website.
 
 ## Development
 
