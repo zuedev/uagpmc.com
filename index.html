@@ -368,10 +368,7 @@
           </div>
         </div>
         <div class="orbatCard">
-          <img
-            class="orbatHero"
-            src="https://placehold.co/192x108?text=Talon+Placeholder"
-          />
+          <img class="orbatHero" src="/orbat-images/talon.jpg" />
           <div class="orbatDetails">
             <h3 class="orbatTitle">Talon</h3>
             <p class="orbatDescription">
@@ -445,10 +442,7 @@
           </div>
         </div>
         <div class="orbatCard">
-          <img
-            class="orbatHero"
-            src="https://placehold.co/192x108?text=Spectre+Placeholder"
-          />
+          <img class="orbatHero" src="/orbat-images/spectre.jpg" />
           <div class="orbatDetails">
             <h3 class="orbatTitle">Spectre</h3>
             <p class="orbatDescription">
@@ -641,5 +635,16 @@
       }
     };
     typewriterEffect();
+
+    // click on orbat images to open in new tab (with cursor pointer)
+    const orbatCards = document.querySelectorAll(".orbatCard");
+    orbatCards.forEach((card) => {
+      const img = card.querySelector(".orbatHero");
+      img.style.cursor = "pointer"; // Change cursor to pointer
+      img.addEventListener("click", () => {
+        const imgSrc = img.src;
+        window.open(imgSrc, "_blank");
+      });
+    });
   </script>
 </html>
