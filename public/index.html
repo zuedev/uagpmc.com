@@ -130,6 +130,13 @@
         white-space: nowrap;
       }
 
+      @media (max-width: 600px) {
+        .mainTitle {
+          white-space: normal; /* allow wrapping on small screens */
+          font-size: 2.5rem; /* smaller font size for mobile */
+        }
+      }
+
       .mainTitle span {
         opacity: 0; /* initially hidden for typewriter effect */
       }
