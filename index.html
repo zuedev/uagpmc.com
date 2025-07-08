@@ -267,6 +267,16 @@
       .uppercase {
         text-transform: uppercase;
       }
+
+      /* hide text selection */
+      ::selection {
+        background: transparent;
+      }
+
+      /* don't show text selection cursor */
+      * {
+        user-select: none;
+      }
     </style>
   </head>
   <body>
